@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link href="/css/all.css" rel="stylesheet"> <!-- font awesome -->
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato" rel="stylesheet">
+
+        <style>
+            html, body {
+                font-family: 'Lato', sans-serif;
+            }
+
+            .title-font {
+                font-family: 'Crimson Text', serif;
+            }   
+
+            html,
+            body,
+            .fill-window {
+                width: 100%;
+                height: 100%;
+            }
+
+            .navbar-brand {
+                font-size: 2rem;
+            }
+
+            .h-925 {
+                height: 92.5%;
+            }
+
+            #sheet-1-main a {
+                font-size: .8em;
+            }
+
+            .h-75 {
+                height: 7.5%;
+            }
+
+            .chevron a {
+                color: #212529;
+                text-decoration: none;
+            }
+
+            @media (min-width: 480px) {
+                .sheet-2-feature {
+                    padding-top: 1.5em;
+                    padding-bottom: 1.5em;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .sheet-2-feature {
+                    padding-top: 1em;
+                    padding-bottom: 1em;
+                }
+            }
+
+            .footer {
+                /*background: #6c7a89;*/
+                background: #343a40;
+                color: #fff;
+            }
+
+            .footer a {
+                color: #fff;
+            }
+
+            ul {
+                list-style: none;
+            }
+        </style>
+
+        <title>genzi - home</title>
+    </head>
+
+    <body>
+        <!-- above the fold -->
+        <nav class = "navbar fixed-top navbar-light justify-content-center" id = "mainNav">
+            <a class="navbar-brand title-font" href="#" id = 'mainLogo'>genzi</a>
+        </nav>
+
+        <!-- sheet 1 -->
+        <div class = "container-fluid fill-window" id = "sheet-1">
+            <div class = "row h-925 align-items-center" id = "sheet-1-main">
+                <div class = "col-sm-3">
+                    <span class = "title-font">introducing the</span><br>
+                    <h3 class = "title-font">MISHIRT</h3>
+                    <button class = "btn btn-secondary" type = "button" id = "interestedButton">curious?</button>
+                </div>
+            
+                <div class = "col-sm-9 text-center">
+                    <img class = "img-fluid rellax" id = "topImg" src = "/images/tshirt-1-page.png" />
+                </div>
+                
+            </div>
+
+            <div class = "row h-75 chevron">
+                <div class = "col-12 text-center title-font">
+                    <a href = '#' id = "readMore">
+                        read more<br>
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- sheet 2 -->
+        <div class = "container-fluid fill-window" id = "sheet-2">
+            <div class = "row h-925 align-items-center">
+                <!-- left features -->
+                <div class = "col-sm-3">
+
+                    <div class = "sheet-2-feature rellax">
+                        <h4 class = "title-font">some text</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum dictum nulla, a bibendum justo.</p>
+                    </div>
+
+                    <div class = "sheet-2-feature rellax">
+                        <h4 class = "title-font">more text</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum dictum nulla, a bibendum justo.</p>
+                    </div>
+                </div>
+
+                <!-- center image -->
+                <div class = "col-sm-6 text-center">
+                    <img class = "img-fluid rellax" id = "featureImg" data-rellax-speed = "0" src = "/images/tshirt-1-page.png" />
+                </div>
+
+                <!-- right features -->
+                <div class = "col-sm-3">
+                    <div class = "sheet-2-feature rellax">
+                            <h4 class = "title-font">teeextt</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum dictum nulla, a bibendum justo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "row h-75 chevron">
+                <div class = "col-12 text-center title-font">
+                    <a href = '#' id = "interested">
+                        i'm interested<br>
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- sheet 3 -->
+        <div class = "container-fluid fill-window" id = "sheet-3">
+            <div class = "row fill-window justify-content-center align-items-center">
+                <div class = "col-sm-6 title-font">
+
+                    <h1>curious? so are we.</h1>
+                    
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="john.doe@example.com" required>
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="submit">keep me posted</button>
+                            </div>
+                        </div>
+                    </form>
+                
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class = "container-fluid footer py-4">
+            <div class = "row text-center">
+                <div class = "col-sm-4">
+                    <ul>
+                        <li><a href = '#'>Hello</a></li>
+                        <li><a href = '#'>Hello</a></li>
+                        <li><a href = '#'>Hello</a></li>
+                    </ul>
+                </div>
+
+                <div class = "col-sm-4">
+                    <ul>
+                        <li><a href = '#'>Hello</a></li>
+                        <li><a href = '#'>Hello</a></li>
+                        <li><a href = '#'>Hello</a></li>
+                    </ul>
+                </div>
+
+                <div class = "col-sm-4">
+                    <ul>
+                        <li><a href = '#'>Hello</a></li>
+                        <li><a href = '#'>Hello</a></li>
+                        <li><a href = '#'>Hello</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "row text-center">
+                <div class = "col-12 title-font">
+                    <span>&copy; 2019 Genzi Ltd.</span>
+                </div>
+            </div>
+        </div>
+
+        <script src = "/js/jquery.min.js"></script>
+        <script src = "/js/rellax.min.js"></script>
+        <script src = "/js/bootstrap.bundle.min.js"></script>
+    
+        <script>
+            // disable parallax on mobile
+            if (screen.width > 480) {
+                var rellax = new Rellax('.rellax', {
+                    center: true,
+                });
+            }
+            
+            $('#mainLogo').click(function () {
+                scrollTo('#sheet-1', 750);
+            })
+
+            $('#interestedButton').click(function () {
+                scrollTo('#sheet-3', 1000);
+            });
+
+            $('#readMore').click(function () {
+                scrollTo('#sheet-2', 500);
+            });
+
+            $('#interested').click(function () {
+                scrollTo('#sheet-3', 500);
+            })
+
+            function scrollTo (elemId, time) {
+                $('html, body').animate({
+                    scrollTop: $(elemId).offset().top
+                }, time);
+            }
+
+            // title bar stuff
+            $(document).scroll(function () {
+                if ($(document).scrollTop() > 0) {
+                    $('#mainNav').addClass('bg-dark navbar-dark');
+                } else {
+                    $('#mainNav').removeClass('bg-dark navbar-dark');
+                }
+            })
+        </script>
+    </body>
+</html>
